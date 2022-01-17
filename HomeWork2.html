@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img#sunrise{
+   
+    width:100vw;
+    height: 40vh;
+    position: absolute;
+}
+
+footer{
+    background-color: rgb(230, 213, 213);
+    position:relative;
+    top: 519px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.right{
+   display: flex;
+   align-content: space-between;
+  
+}
+
+img{
+    margin :0px 5px;
+    width: 20px;
+    height: 20px;
+}
+
+img#button{
+    width: 40px;
+    height: 40px;
+}
+
+div.box{
+    font-family: Arial, Helvetica, sans-serif;
+    color: navajowhite;
+    position: relative;
+    width: 350px;
+    height: 40vh;
+    top: 180px;
+    left: 40vw;
+   
+}
+ 
+div.todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+div.bg{
+    background-color: white;
+    width: 350px;
+    height: 30px;
+}
+
+@media (max-width:800px) {
+    
+    div.box{
+    position: relative;
+    width: 250px;
+    height: 40vh;
+    top: 180px;
+    left: 20vw;
+    
+    }
+
+}
+  
+</style>
+
+
+</head>
+
+<body>
+    
+
+<img src="/pexels-pixabay-70577.jpg" alt="" id="sunrise">
+
+
+<div class="box">
+    <div class="todo">
+       
+        <h2>Todo List </h2>
+        
+        <img id="button" src="buttons.png" alt="">
+        
+    </div>
+    <br>
+    <div class="bg">
+         <div class="todo">
+              <input type="text"  placeholder="Add a task to the List...">
+
+              <img src="plus.png" alt="">
+         </div>
+    </div>
+
+</div>
+
+
+
+
+
+<footer>
+
+    <div class="left">
+        <h3>Fathima Akeela</h3>
+    </div>
+
+    <div class="right">
+        <a href="..."> 
+            <img src="instagram.png" alt="">
+        </a>
+        <a href="..."> 
+            <img src="linkedin.png" alt="">
+        </a>
+        <a href="..."> 
+            <img src="github.png" alt="">
+        </a>
+    </div>
+
+</footer>
+
+</body>
+
+</html>
